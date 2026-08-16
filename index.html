@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Casa Treino Academia | Musculação e Artes Marciais em Belo Horizonte</title>
+  <meta name="description" content="Academia completa com musculação, capoeira, jiu-jitsu e boxe chinês no bairro Esplanada, Belo Horizonte. Ambiente familiar e treinos de qualidade." />
+  <meta name="keywords" content="academia, musculação, capoeira, jiu-jitsu, boxe chinês, belo horizonte, esplanada, casa treino" />
+  <meta property="og:title" content="Casa Treino Academia | Musculação e Artes Marciais em Belo Horizonte" />
+  <meta property="og:description" content="Treino de verdade em um ambiente familiar e motivador. Musculação, capoeira, jiu-jitsu e boxe chinês no bairro Esplanada." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="casa_treino.png" />
+  <link rel="icon" href="casa_treino.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo"><img src="casa_treino.png" alt="Logo Casa Treino" />Casa<span>Treino</span></a>
+      <div class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#hero">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#modalidades">Modalidades</a></li>
+        <li><a href="#team">Equipe</a></li>
+        <li><a href="#planos">Planos</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-bg" id="heroBg"></div>
+    <div class="hero-content">
+      <h1 class="hero-title" data-aos>Casa Treino Academia</h1>
+      <p class="hero-subtitle" data-aos>Treino de verdade em um ambiente familiar e motivador.</p>
+      <div class="hero-btns" data-aos>
+        <a href="#planos" class="btn btn-primary">Ver Planos</a>
+        <a href="https://wa.me/5531992701072" target="_blank" rel="noopener" class="btn btn-outline">Matricule-se Já</a>
+      </div>
+    </div>
+    <div class="hero-scroll"><i class="fas fa-chevron-down"></i></div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header" data-aos>
+        <span class="section-tag">Quem Somos</span>
+        <h2 class="section-title">Uma Família no Esporte</h2>
+        <p class="section-desc">Treino de verdade em um ambiente familiar e motivador, no bairro Esplanada, em Belo Horizonte.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-image" data-aos>
+          <div class="about-image-frame">
+            <img src="about.webp" alt="Estrutura da Casa Treino Academia" />
+          </div>
+        </div>
+        <div class="about-text" data-aos>
+          <p>A Casa Treino Academia reúne musculação e artes marciais em um só lugar: capoeira, jiu-jitsu e boxe chinês, com acompanhamento profissional e um ambiente acolhedor no bairro Esplanada.</p>
+          <p>Seja você iniciante ou avançado, aqui você treina de verdade, evolui com disciplina e faz parte de uma comunidade que respeita cada aluno e acredita em resultados.</p>
+          <ul class="about-features">
+            <li><i class="fas fa-dumbbell"></i> Musculação com acompanhamento</li>
+            <li><i class="fas fa-fire"></i> Capoeira, jiu-jitsu e boxe chinês</li>
+            <li><i class="fas fa-users"></i> Ambiente familiar e acolhedor</li>
+            <li><i class="fas fa-clock"></i> Manhã: 06h–11h | Noite: 16h–21h</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MODALIDADES ========== -->
+  <section class="section modalidades" id="modalidades">
+    <div class="container">
+      <div class="section-header" data-aos>
+        <span class="section-tag">Modalidades</span>
+        <h2 class="section-title">Escolha Seu Treino</h2>
+        <p class="section-desc">Musculação e artes marciais para todos os objetivos e níveis.</p>
+      </div>
+
+      <div class="services-tabs" data-aos>
+        <button class="service-tab active" data-filter="all">Todas</button>
+        <button class="service-tab" data-filter="fitness">Fitness e Condicionamento</button>
+        <button class="service-tab" data-filter="marciais">Artes Marciais</button>
+      </div>
+
+      <div class="services-grid" id="servicesGrid" data-aos>
+        <div class="service-card" data-category="fitness">
+          <div class="service-icon"><i class="fas fa-dumbbell"></i></div>
+          <h4>Musculação</h4>
+          <p>Fortalecimento, hipertrofia e condicionamento físico com acompanhamento profissional.</p>
+          <span class="service-price">Incluso nos planos</span>
+        </div>
+        <div class="service-card" data-category="marciais">
+          <div class="service-icon"><i class="fas fa-fire"></i></div>
+          <h4>Capoeira</h4>
+          <p>Agilidade, ritmo, resistência e expressão cultural em ambiente tradicional.</p>
+          <span class="service-price">Incluso nos planos</span>
+        </div>
+        <div class="service-card" data-category="marciais">
+          <div class="service-icon"><i class="fas fa-shield-alt"></i></div>
+          <h4>Jiu-Jitsu</h4>
+          <p>Técnica, defesa pessoal, disciplina e evolução contínua para todos os níveis.</p>
+          <span class="service-price">Incluso nos planos</span>
+        </div>
+        <div class="service-card" data-category="marciais">
+          <div class="service-icon"><i class="fas fa-fist-raised"></i></div>
+          <h4>Boxe Chinês</h4>
+          <p>Sanda: combate em pé, quedas, agilidade e condicionamento físico.</p>
+          <span class="service-price">Incluso nos planos</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TEAM ========== -->
+  <section class="section team" id="team">
+    <div class="container">
+      <div class="section-header" data-aos>
+        <span class="section-tag">Equipe</span>
+        <h2 class="section-title">Quem Faz a Casa</h2>
+        <p class="section-desc">Profissionais dedicados prontos para te guiar rumo aos resultados.</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card" data-aos>
+          <div class="team-img"><img src="mestrecavalomuzenza.jpg" alt="Mestre Cavalo" /></div>
+          <h4>Mestre Cavalo</h4><span>CEO e Instrutor</span>
+          <div class="team-social"><a href="https://www.instagram.com/casatreinobh" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></div>
+        </div>
+        <div class="team-card" data-aos>
+          <div class="team-img"><img src="vic_costa.jpg" alt="Victória Veloso" /></div>
+          <h4>Victória Veloso</h4><span>CEO</span>
+          <div class="team-social"><a href="https://www.instagram.com/casatreinobh" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PLANOS ========== -->
+  <section class="section planos" id="planos">
+    <div class="container">
+      <div class="section-header" data-aos>
+        <span class="section-tag">Planos</span>
+        <h2 class="section-title">Comece Hoje</h2>
+        <p class="section-desc">Planos flexíveis para treinar de verdade, com opções para todos os objetivos.</p>
+      </div>
+      <div class="planos-grid" data-aos>
+        <div class="plano-card">
+          <h4 class="plano-nome">Aula Experimental</h4>
+          <div class="plano-preco"><span class="preco">R$ 0</span><span>/aula</span></div>
+          <ul class="plano-beneficios">
+            <li><i class="fas fa-check"></i> Conheça todas as modalidades</li>
+            <li><i class="fas fa-check"></i> Musculação, capoeira, jiu-jitsu e boxe chinês</li>
+            <li><i class="fas fa-check"></i> Sem compromisso</li>
+            <li><i class="fas fa-times"></i> Acompanhamento completo</li>
+            <li><i class="fas fa-times"></i> Treinos ilimitados</li>
+          </ul>
+          <a href="https://wa.me/5531992701072?text=Ol%C3%A1!%20Quero%20agendar%20a%20Aula%20Experimental%20na%20Casa%20Treino." target="_blank" rel="noopener" class="btn btn-outline-plano">Agendar</a>
+        </div>
+        <div class="plano-card destaque">
+          <span class="plano-badge">Mais Procurado</span>
+          <h4 class="plano-nome">Mensal Completo</h4>
+          <div class="plano-preco"><span class="preco">R$ 129</span><span>/mês</span></div>
+          <ul class="plano-beneficios">
+            <li><i class="fas fa-check"></i> Todas as modalidades ilimitadas</li>
+            <li><i class="fas fa-check"></i> Musculação com acompanhamento</li>
+            <li><i class="fas fa-check"></i> Capoeira, jiu-jitsu e boxe chinês</li>
+            <li><i class="fas fa-check"></i> Horários de manhã e noite</li>
+            <li><i class="fas fa-times"></i> Matrícula familiar com desconto</li>
+          </ul>
+          <a href="https://wa.me/5531992701072?text=Ol%C3%A1!%20Quero%20o%20plano%20Mensal%20Completo%20da%20Casa%20Treino." target="_blank" rel="noopener" class="btn btn-primary">Assinar</a>
+        </div>
+        <div class="plano-card">
+          <h4 class="plano-nome">Familiar</h4>
+          <div class="plano-preco"><span class="preco">R$ 199</span><span>/mês (2 pessoas)</span></div>
+          <ul class="plano-beneficios">
+            <li><i class="fas fa-check"></i> Todos os benefícios do Completo</li>
+            <li><i class="fas fa-check"></i> 2 pessoas por matrícula</li>
+            <li><i class="fas fa-check"></i> Desconto especial para família</li>
+            <li><i class="fas fa-check"></i> Ambiente acolhedor para todos</li>
+            <li><i class="fas fa-times"></i> Matrículas individuais separadas</li>
+          </ul>
+          <a href="https://wa.me/5531992701072?text=Ol%C3%A1!%20Quero%20o%20plano%20Familiar%20da%20Casa%20Treino." target="_blank" rel="noopener" class="btn btn-outline-plano">Assinar</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DEPOIMENTOS ========== -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="section-header" data-aos>
+        <span class="section-tag">Depoimentos</span>
+        <h2 class="section-title">Quem Treina Aqui Recomenda</h2>
+      </div>
+      <div class="testimonials-grid" data-aos>
+        <div class="testimonial-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Treino jiu-jitsu há um tempo na Casa Treino e o pessoal é muito acolhedor e respeitoso. Recomendo a qualquer um que queira aprender não só jiu-jitsu, mas também capoeira, boxe chinês ou fazer musculação."</p>
+          <span>— Murilo Nicolas</span>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Academia muito boa, ótima localização no meu bairro e liderada com competência, simpatia e dedicação do CEO Cavalo."</p>
+          <span>— Erika Rezende</span>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Academia excelente! Ótima estrutura para musculação e treinos de capoeira, com professores atenciosos e ambiente super motivador. Dá vontade de treinar todo dia!"</p>
+          <span>— RoZiane Reis</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header" data-aos>
+        <span class="section-tag">Contato</span>
+        <h2 class="section-title">Faça Sua Matrícula</h2>
+        <p class="section-desc">Comece sua transformação hoje mesmo.</p>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form" data-aos>
+          <input type="text" placeholder="Seu nome completo" required />
+          <input type="email" placeholder="Seu e-mail" required />
+          <input type="tel" placeholder="Telefone / WhatsApp" />
+          <select><option>Plano de interesse</option><option>Aula Experimental - Grátis</option><option>Mensal Completo - R$ 129/mês</option><option>Familiar - R$ 199/mês</option></select>
+          <textarea rows="4" placeholder="Objetivo, horário preferencial ou mensagem"></textarea>
+          <button type="submit" class="btn btn-primary">Quero me Matricular</button>
+        </form>
+        <div class="contact-info" data-aos>
+          <div class="info-item"><i class="fas fa-map-marker-alt"></i><p>Rua Francisco Lobo, 725 - Esplanada, Belo Horizonte - MG</p></div>
+          <div class="info-item"><i class="fab fa-whatsapp"></i><p>(31) 99270-1072</p></div>
+          <div class="info-item"><i class="fas fa-clock"></i><p>Seg a Sex: 06h–11h | 16h–21h<br />Sáb: 08h–10h</p></div>
+          <a href="https://wa.me/5531992701072" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:12px;text-align:center"><i class="fab fa-whatsapp" style="margin-right:8px"></i>Fale pelo WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3><img src="casa_treino.png" alt="Logo Casa Treino" />Casa<span>Treino</span></h3>
+        <p>Treino de verdade em um ambiente familiar e motivador.</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/casatreinobh" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/5531992701072" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Links</h4>
+        <a href="#hero">Início</a><a href="#about">Sobre</a><a href="#modalidades">Modalidades</a><a href="#planos">Planos</a><a href="#contact">Contato</a>
+      </div>
+      <div class="footer-links">
+        <h4>Horários</h4>
+        <p>Seg a Sex: 06h - 11h</p>
+        <p>Seg a Sex: 16h - 21h</p>
+        <p>Sábado: 08h - 10h</p>
+      </div>
+      <div class="footer-newsletter">
+        <h4>Newsletter</h4>
+        <p>Dicas de treino e novidades da Casa.</p>
+        <form><input type="email" placeholder="Seu e-mail" /><button><i class="fas fa-paper-plane"></i></button></form>
+      </div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2026 Casa Treino Academia. Todos os direitos reservados.</p></div>
+  </footer>
+
+  <!-- ========== BACK TO TOP ========== -->
+  <button class="back-to-top" id="backToTop"><i class="fas fa-chevron-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
